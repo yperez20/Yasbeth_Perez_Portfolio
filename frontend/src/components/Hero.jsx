@@ -1,3 +1,5 @@
+import '../styles/hero.css'
+
 function Hero() {
   return (
     <section className="hero-section">
