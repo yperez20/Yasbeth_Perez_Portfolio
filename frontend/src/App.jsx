@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import About from './components/About'
 
 function App() {
   const [showTopButton, setShowTopButton] = useState(false)
@@ -24,45 +25,11 @@ function App() {
       <Navbar />
 
 
-      {/* Hero */}
       <main>
 
         <Hero />
 
-
-        {/* About */}
-        <section id="about" className="section about-section">
-
-          <div className="section-heading">
-
-            <span>01</span>
-
-            <div>
-              <p>GET TO KNOW ME</p>
-              <h2>About Me</h2>
-            </div>
-
-          </div>
-
-
-          <div className="about-content">
-
-            <p className="about-main">
-              I'm a Computer Science graduate from Texas State
-              University with a minor in Applied Mathematics.
-            </p>
-
-            <p>
-              My experience includes software development, full-stack
-              projects, technical support, and collaborative problem
-              solving. I enjoy learning new technologies and finding
-              practical ways to use them to solve problems.
-            </p>
-
-          </div>
-
-        </section>
-
+         <About />
 
         {/* Skills */}
         <section id="skills" className="section">
