@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
+import Navbar from './components/Navbar'
 
 function App() {
   const [showTopButton, setShowTopButton] = useState(false)
@@ -19,26 +20,7 @@ function App() {
   return (
     <div className="portfolio">
 
-      {/* Navigation */}
-      <nav className="navbar">
-
-        <a href="#" className="logo">
-          YP
-        </a>
-
-        <div className="nav-links">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#experience">Experience</a>
-          <a href="#contact">Contact</a>
-        </div>
-
-        <a href="#contact" className="nav-button">
-          Let's Talk
-        </a>
-
-      </nav>
+      <Navbar />
 
 
       {/* Hero */}
