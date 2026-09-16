@@ -46,21 +46,6 @@ function App() {
 
       </main>
 
-
-      {/* Footer */}
-      <footer>
-
-        <p>
-          © 2026 Yasbeth Perez
-        </p>
-
-        <p>
-          Designed & Built with React
-        </p>
-
-      </footer>
-
-
       {/* Back to top */}
       {showTopButton && (
         <a href="#" className="back-to-top">
