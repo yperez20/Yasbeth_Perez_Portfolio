@@ -5,6 +5,8 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import Experience from './components/Experience'
+
 
 function App() {
   const [showTopButton, setShowTopButton] = useState(false)
@@ -37,57 +39,7 @@ function App() {
 
         <Projects />
 
-
-        {/* Experience */}
-        <section id="experience" className="section">
-
-          <div className="section-heading">
-
-            <span>04</span>
-
-            <div>
-              <p>MY BACKGROUND</p>
-              <h2>Experience</h2>
-            </div>
-
-          </div>
-
-
-          <div className="timeline">
-
-            <div className="timeline-item">
-
-              <div className="timeline-marker"></div>
-
-              <div className="timeline-content">
-
-                <div className="timeline-date">
-                  2023 — 2025
-                </div>
-
-                <h3>
-                  Computer Science Lab Assistant
-                </h3>
-
-                <h4>
-                  Texas State University
-                </h4>
-
-                <p>
-                  Provided technical support to students,
-                  troubleshot equipment and printing issues,
-                  monitored print jobs, and maintained lab
-                  equipment and safety procedures.
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </section>
-
+        <Experience />
 
         {/* Contact */}
         <section id="contact" className="contact-section">
