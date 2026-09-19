@@ -4,10 +4,6 @@ function Navbar() {
   return (
     <nav className="navbar">
 
-      <a href="#" className="logo">
-        YP
-      </a>
-
       <div className="nav-links">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -15,10 +11,6 @@ function Navbar() {
         <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
       </div>
-
-      <a href="#contact" className="nav-button">
-        Let's Talk
-      </a>
 
     </nav>
   )
