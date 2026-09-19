@@ -29,7 +29,7 @@ function Contact() {
 
             <div>
               <p>EMAIL</p>
-              <h3>Draft an Email</h3>
+              <h3>Send me an Email</h3>
             </div>
 
             <span className="contact-arrow">
@@ -48,8 +48,8 @@ function Contact() {
             </span>
 
             <div>
-              <p>CODE</p>
-              <h3>View GitHub</h3>
+              <p>PROJECTS</p>
+              <h3>View my GitHub</h3>
             </div>
 
             <span className="contact-arrow">
@@ -68,8 +68,8 @@ function Contact() {
             </span>
 
             <div>
-              <p>NETWORK</p>
-              <h3>Connect on LinkedIn</h3>
+              <p>LINKEDIN</p>
+              <h3>Let's Connect</h3>
             </div>
 
             <span className="contact-arrow">
