@@ -4,10 +4,8 @@ function Experience() {
   return (
     <section id="experience" className="section">
       <div className="section-heading">
-        <span>04</span>
         <div>
-          <p>MY BACKGROUND</p>
-          <h2>Experience</h2>
+          <h2>Work Experience</h2>
         </div>
       </div>
 
@@ -17,7 +15,7 @@ function Experience() {
 
           <div className="timeline-content">
             <div className="timeline-date">
-              2023 — 2025
+              Sep 2025 — Dec 2025
             </div>
 
             <h3>
@@ -29,9 +27,9 @@ function Experience() {
             </h4>
 
             <p>
-              Provided technical support to students,
-              troubleshot equipment and printing issues,
-              monitored print jobs, and maintained lab
+              Provided technical support to students using lab hardware.
+              Troubleshot printing malfunctions,
+              monitored print jobs to prevent failures, and maintained lab
               equipment and safety procedures.
             </p>
           </div>
