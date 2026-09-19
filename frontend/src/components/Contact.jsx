@@ -5,18 +5,17 @@ function Contact() {
     <section id="contact" className="contact-section">
       <div className="contact-inner">
         <p className="contact-label">
-          HAVE A QUESTION?
+          Have Any Questions?
         </p>
 
         <h2>
-          Let's build something
-          <span>great.</span>
+          Feel free to reach out!
         </h2>
 
         <p className="contact-description">
-          Whether you want to talk about a project,
-          an opportunity, or just connect, I'd love to
-          hear from you.
+          I’m more than happy to hear from you, 
+          whether you want to discuss a project, 
+          an opportunity, or simply connect.
         </p>
 
         <div className="contact-options">
